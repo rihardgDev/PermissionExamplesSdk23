@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity  implements RuntimePermissio
 
     }
     //method for inserting dummy contact, without permission handler,
+    // source: http://inthecheesefactory.com/blog/things-you-need-to-know-about-android-m-permission-developer-edition/en
     private void insertDummyContact() {
         // Two operations are needed to insert a new contact.
         ArrayList<ContentProviderOperation> operations = new ArrayList<ContentProviderOperation>(2);
